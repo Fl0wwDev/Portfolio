@@ -1,8 +1,24 @@
-# React + Vite
+# Mon Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet a été créé avec [Create React App](https://github.com/facebook/create-react-app).
 
-Currently, two official plugins are available:
+## Scripts Disponibles
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dans le répertoire du projet, vous pouvez exécuter :
+
+### `npm start`
+
+Exécute l'application en mode développement.\
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour y accéder.
+
+La page se rechargera automatiquement lorsque vous apportez des modifications.\
+Vous pouvez également consulter les erreurs de lint dans la console.
+
+### `npm test`
+
+Lance le testeur dans le mode interactif de surveillance.
+
+### `npm run build`
+
+Compile l'application pour la production dans le dossier `build`.\
+Elle regroupe correctement React en mode production et optimise la compilation pour de meilleures performances.
